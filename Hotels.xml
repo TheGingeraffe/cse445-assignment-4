@@ -1,147 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotels>
-    <Hotel HotelID="H001" Rating="4.3">
-        <Name>Westin Tempe</Name>
-        <Phone>480-968-8885</Phone>
-        <Phone>800-937-8461</Phone>
-        <Address>
-            <Number>11</Number>
-            <Street>E 7th St</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-    <Hotel HotelID="H002" Rating="4.6">
-        <Name>Tempe Mission Palms Hotel</Name>
-        <Phone>480-894-1400</Phone>
-        <Address>
-            <Number>60</Number>
-            <Street>E 5th St</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.3">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H003" Rating="4.4">
-        <Name>Canopy by Hilton Tempe Downtown</Name>
-        <Phone>480-968-6800</Phone>
-        <Address>
-            <Number>108</Number>
-            <Street>E University Dr</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.6">
+    <Name>Tempe Mission Palms Hotel</Name>
+    <Phone>480-894-1400</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H004" Rating="4.1">
-        <Name>Graduate Tempe</Name>
-        <Phone>480-967-9431</Phone>
-        <Address>
-            <Number>225</Number>
-            <Street>E Apache Blvd</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.4">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Phone>480-968-6800</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>108</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H005" Rating="4.5">
-        <Name>AC Hotel Phoenix Tempe/Downtown</Name>
-        <Phone>480-642-6140</Phone>
-        <Address>
-            <Number>100</Number>
-            <Street>E Rio Salado Pkwy</Street>
-            <City>Tempe</City>
-            <State>AZ</State>
-            <Zip>85281</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.1">
+    <Name>Graduate Tempe</Name>
+    <Phone>480-967-9431</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H006" Rating="4.7">
-        <Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
-        <Phone>602-955-6600</Phone>
-        <Address>
-            <Number>2400</Number>
-            <Street>E Missouri Ave</Street>
-            <City>Phoenix</City>
-            <State>AZ</State>
-            <Zip>85016</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.5">
+    <Name>AC Hotel Phoenix Tempe Downtown</Name>
+    <Phone>480-642-6140</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>100</Number>
+      <Street>E Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H007" Rating="4.8">
-        <Name>The Phoenician, a Luxury Collection Resort</Name>
-        <Phone>480-941-8200</Phone>
-        <Phone>800-888-8234</Phone>
-        <Address>
-            <Number>6000</Number>
-            <Street>E Camelback Rd</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85251</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.7">
+    <Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
+    <Phone>602-955-6600</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>2400</Number>
+      <Street>E Missouri Ave</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85016</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H008" Rating="4.4">
-        <Name>Hotel Valley Ho</Name>
-        <Phone>480-376-2600</Phone>
-        <Address>
-            <Number>6850</Number>
-            <Street>E Main St</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85251</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.8">
+    <Name>The Phoenician, a Luxury Collection Resort</Name>
+    <Phone>480-941-8200</Phone>
+    <Phone>800-888-8234</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>6000</Number>
+      <Street>E Camelback Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H009" Rating="4.3">
-        <Name>Talking Stick Resort</Name>
-        <Phone>480-850-7777</Phone>
-        <Address>
-            <Number>9800</Number>
-            <Street>E Talking Stick Way</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85256</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.4">
+    <Name>Hotel Valley Ho</Name>
+    <Phone>480-376-2600</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>6850</Number>
+      <Street>E Main St</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H010" Rating="4.9">
-        <Name>Sanctuary Camelback Mountain, A Gurney’s Resort</Name>
-        <Phone>855-245-2051</Phone>
-        <Address>
-            <Number>5700</Number>
-            <Street>E McDonald Dr</Street>
-            <City>Paradise Valley</City>
-            <State>AZ</State>
-            <Zip>85253</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.3">
+    <Name>Talking Stick Resort</Name>
+    <Phone>480-850-7777</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>9800</Number>
+      <Street>E Talking Stick Way</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85256</Zip>
+    </Address>
+  </Hotel>
 
-    <Hotel HotelID="H011" Rating="4.5">
-        <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
-        <Phone>480-627-3200</Phone>
-        <Address>
-            <Number>4949</Number>
-            <Street>E Lincoln Dr</Street>
-            <City>Scottsdale</City>
-            <State>AZ</State>
-            <Zip>85253</Zip>
-            <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
-        </Address>
-    </Hotel>
+  <Hotel Rating="4.9">
+    <Name>Sanctuary Camelback Mountain, A Gurney's Resort</Name>
+    <Phone>855-245-2051</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>5700</Number>
+      <Street>E McDonald Dr</Street>
+      <City>Paradise Valley</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Omni Scottsdale Resort and Spa at Montelucia</Name>
+    <Phone>480-627-3200</Phone>
+    <Address NearestAirport="Phoenix Sky Harbor International Airport">
+      <Number>4949</Number>
+      <Street>E Lincoln Dr</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85253</Zip>
+    </Address>
+  </Hotel>
+
 </Hotels>
