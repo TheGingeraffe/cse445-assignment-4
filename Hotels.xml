@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Hotels>
+
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
     <Address NearestAirport="Sky Harbor">
       <Number>11</Number>
-      <Street>E.7th St</Street>
+      <Street>E 7th St</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
@@ -50,7 +51,7 @@
   </Hotel>
 
   <Hotel Rating="4.5">
-    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
+    <Name>AC Hotel Phoenix Tempe Downtown</Name>
     <Phone>480-642-6140</Phone>
     <Address NearestAirport="Phoenix Sky Harbor International Airport">
       <Number>100</Number>
@@ -62,7 +63,7 @@
   </Hotel>
 
   <Hotel Rating="4.7">
-    <Name>Arizona Biltmore, A Waldorf Astoria Resort</Name>
+    <Name>Arizona Biltmore A Waldorf Astoria Resort</Name>
     <Phone>602-955-6600</Phone>
     <Address NearestAirport="Phoenix Sky Harbor International Airport">
       <Number>2400</Number>
@@ -74,7 +75,7 @@
   </Hotel>
 
   <Hotel Rating="4.8">
-    <Name>The Phoenician, a Luxury Collection Resort</Name>
+    <Name>The Phoenician Luxury Collection Resort</Name>
     <Phone>480-941-8200</Phone>
     <Phone>800-888-8234</Phone>
     <Address NearestAirport="Phoenix Sky Harbor International Airport">
@@ -111,7 +112,7 @@
   </Hotel>
 
   <Hotel Rating="4.9">
-    <Name>Sanctuary Camelback Mountain, A Gurney's Resort</Name>
+    <Name>Sanctuary Camelback Mountain</Name>
     <Phone>855-245-2051</Phone>
     <Address NearestAirport="Phoenix Sky Harbor International Airport">
       <Number>5700</Number>
@@ -122,8 +123,8 @@
     </Address>
   </Hotel>
 
-  <Hotel>
-    <Name>Omni Scottsdale Resort &amp; Spa at Montelucia</Name>
+  <Hotel Rating="4.5">
+    <Name>Omni Scottsdale Resort and Spa at Montelucia</Name>
     <Phone>480-627-3200</Phone>
     <Address NearestAirport="Phoenix Sky Harbor International Airport">
       <Number>4949</Number>
@@ -133,4 +134,5 @@
       <Zip>85253</Zip>
     </Address>
   </Hotel>
+
 </Hotels>
