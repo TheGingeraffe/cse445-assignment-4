@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  HotelsErrors.xml
+  Mutations required by the assignment:
+  (1) root element name is Hotel (not Hotels)
+  (2) missing required attribute (HotelID) on one hotel
+  (3) missing Phone on one hotel
+  (4) an Address element has no closing tag  ← put LAST so parser gets this last
+  (5) two Name elements on one hotel
+-->
+<Hotel>
+
+  <!-- hotel 1: valid to show structure -->
+  <Hotel HotelID="H001" Rating="4.3">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- hotel 2: (2) missing required attribute (no HotelID) -->
+  <Hotel Rating="4.6">
+    <Name>Tempe Mission Palms Hotel</Name>
+    <Phone>480-894-1400</Phone>
+    <Address>
+      <Number>60</Number>
+      <Street>E 5th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- hotel 3: (3) missing Phone -->
+  <Hotel HotelID="H003" Rating="4.4">
+    <Name>Canopy by Hilton Tempe Downtown</Name>
+    <Address>
+      <Number>108</Number>
+      <Street>E University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- hotel 4: (5) two Name elements -->
+  <Hotel HotelID="H004" Rating="4.1">
+    <Name>Graduate Tempe</Name>
+    <Name>Graduate Tempe (Duplicate)</Name>
+    <Phone>480-967-9431</Phone>
+    <Address>
+      <Number>225</Number>
+      <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <!-- hotel 5: (4) no closing </Address> -->
+  <Hotel HotelID="H005" Rating="4.5">
+    <Name>AC Hotel Phoenix Tempe/Downtown</Name>
+    <Phone>480-642-6140</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>E Rio Salado Pkwy</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Phoenix Sky Harbor International Airport</NearestAirport>
+    <!-- missing </Address> and </Hotel> to satisfy requirement (4) -->
+</Hotel>
