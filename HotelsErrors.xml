@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
   <!-- 1st hotel: valid -->
   <Hotel Rating="4.3">
@@ -146,4 +147,4 @@
     <!-- no </Address> here -->
   </Hotel>
 
-</Hotel>
+</Hotels>
